@@ -1,0 +1,188 @@
+/* Snitz CSS file
+The Speedball verson of the Snitz Forums uses this file to configure the layout style and color instead of the standard admin page */
+
+body {
+	background: white url(none);
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt;
+	color: midnightblue;
+}
+a:link,
+ a:visited,
+ a:active {
+	 text-decoration: underline;
+}
+a:hover {
+	 text-decoration: none;
+}
+a:link			{ color: blue; }
+a:visited		{ color: blue; }
+a:active		{ color: red; }
+a:hover			{ color: red; }
+
+#header				{ max-width: 1280px; margin-left: auto; margin-right: auto }
+.hdlogo,
+ .hdcontrols		{ float: left; width: 50% }
+.hdcontrols			{ text-align: center; min-width: 250px; }
+.hdnav				{ font-size: 8pt }
+.login, .logout		{ font-size: 8pt; margin-left: auto; margin-right: auto }
+.lstatus			{ text-align: center; white-space: nowrap }
+.loptions			{ font-size: 8pt }
+.login .loptions 	{ text-align: left }
+.logout .loptions 	{ text-align: center }
+.lmessage			{ clear: both; text-align: center }
+.lmessage P			{ font-size: 14pt }
+
+#pre-content,
+ #content,
+ #post-content,
+ #quickr			{ width: 95%; clear: both; margin: auto; max-width: 1000px }
+
+.breadcrumbs,
+ .actions,
+ .filter			{ float: left }
+.breadcrumbs 		{ white-space: nowrap; text-align: left }
+.actions			{ text-align: center }
+.actions span		{ display: none }
+.filter				{ text-align: right }
+.maxpages,
+ .subscription		{ padding: 4px 0; clear: both; text-align: right }
+.maxpages			{ font-size: 8pt; vertical-align: bottom }
+
+#content,
+ #quickr,
+ .admin				{ border: 1px solid black; border-collapse: collapse }
+
+#content th,
+ #quickr th,
+ .admin th			{ color: mintcream; background: midnightblue; text-align: center; white-space: nowrap }
+
+.admin				{ clear: both; margin: auto }
+.admin UL 			{ padding: 0 1.5em; }
+.admin TR			{ background: lightsteelblue }
+
+#quickr				{ width: 100% }
+
+#content th,
+ #content td,
+#quickr th,
+ #quickr td,
+.admin th,
+ .admin td			{ padding: 4px; border: 1px solid black }
+
+#post-content		{  }
+
+#footer,
+ #subfooter			{ max-width: 1280px; width: 95%; font-size: 8pt; padding: 4px; overflow: auto; margin: auto }
+#footer				{ background: whitesmoke; color: midnightblue }
+
+/* default.asp */
+#statistics			{ font-size: 8pt; padding: 4px; }
+.cathd,
+ .statshd			{ background: slateblue; color: mintcream } /* Category row */
+.cathd a:link,
+ .cathd a:visited,
+ .cathd a:active,
+ .cathd a:hover		{ color: mintcream } /* Category Link Color/Decoration */
+.linkrow			{ text-align: center }
+.forumrow			{ text-align: center }
+.fdetail,
+ .fmods				{ text-align:left /* smt? */ }
+.fmods				{ font-size: 8pt }
+.fdescr				{ font-size: 8pt; /* display:block; max-width:33em */ }
+.flastpost			{ font-size: 8pt; white-space: nowrap }
+.options			{ white-space: nowrap; text-align: center; vertical-align: middle }
+.statsrow			{ font-size: 8pt }
+.fkey				{ float:left; margin:auto; font-size: 8pt; padding: 4px 0; width: 100% }
+
+.fttitle,
+ .ftgenerated 		{ float:left; margin-top: 4px }
+.ftcopyright,
+ .ftpoweredby 		{ float:right }
+
+/* forum.asp */
+.topicrow			{ text-align: center }
+.tdetail			{ text-align: left /* smt? */ }
+.tauthor			{ font-size: 8pt /* smt? */ }
+.treplies,
+ .tread				{ font-size: 8pt  }
+.tlastpost			{ font-size: 8pt; white-space: nowrap }
+.sort				{ font-size: 8pt }
+.tkey				{ float: left; font-size: 8pt; padding: 4px 0 }
+.jumpto				{ float: left; white-space: nowrap; text-align: right; font-size: 8pt }
+
+
+/* topic.asp */
+.tp					{ font-size: 8pt; background: whitesmoke }
+.tp tr				{ text-align: right }
+.paging				{ }
+.poster				{ vertical-align: top; white-space: nowrap }
+.rank				{ color: midnightblue; font-size: 7pt }
+.post				{ vertical-align: top; height: 100%;  }
+#msg				{ width:99%; margin-left: auto; margin-right: auto }
+
+/* ---------- */
+
+.pb				{ background: white url(none) } /* Page Background Color/Image */
+.dff	 		{ font-family: Verdana, Arial, Helvetica } /* Default Font Face */
+.dfs	 		{ font-size: 10pt }/* Default Font Size - sets the standard font size for the whole page */
+.dfc 			{ color: midnightblue } /* Default Font Color */
+
+.hfs 			{ font-size: 14pt } /* Header Font Size - sets the header font size as a percentage of the the default size (dfs) */
+.hfc	 		{ color: mintcream } /* Header Font Color */
+.hcc	 		{ background: midnightblue } /* Header Cell Color */
+
+.ffs			{ font-size: 8pt } /* Footer Font Size - sets the footer font size as a percentage of the the default size (dfs) */
+
+.cfc 			{ color: mintcream } /* Category Font Color */
+.cfc a:link		{ color: mintcream; text-decoration: underline } /* Category Link Color/Decoration */
+.cfc a:visited	{ color: mintcream; text-decoration: underline } /* Category Link Color/Decoration */
+.cfc a:active	{ color: mintcream; text-decoration: underline } /* Category Link Color/Decoration */
+.cfc a:hover	{ color: mintcream; text-decoration: underline } /* Category Link Color/Decoration */
+.ccc		 	{ background: slateblue } /* Category Cell Color */
+
+.ffc			{ color: midnightblue } /* Forum Font Color */
+.fcc 			{ background: whitesmoke } /* Forum Cell Color */
+.ffcc 			{ background: whitesmoke } /* Forum First Cell Color */
+.ffacc 			{ background: whitesmoke } /* Forum First Alternating Cell Color */
+.fsacc 			{ background: Gainsboro } /* Forum Second Alternating Cell Color */
+
+.iffc 			{ color: midnightblue } /* In Forum Font Color */
+.ifl a:link		{ color: darkblue; text-decoration: underline } /* In Forum Link */
+.ifl a:visited	{ color: blue; text-decoration: underline } /* In Forum Link */
+.ifl a:active	{ color: red; text-decoration: underline } /* In Forum Link */
+.ifl a:hover	{ color: red; text-decoration: underline } /* In Forum Link */
+
+.tbc,
+.tbc td			{ border: 1px solid black; border-collapse: collapse } /* Table Border Color */
+
+.putc 			{ background: lightsteelblue } /* Pop-Up Table Color */
+
+.putbc,
+.putbc td		{ border: 1px solid black; border-collapse: collapse } /* Pop-Up Table Border Color */
+
+.hlfc 			{ color: red } /* HighLite Font Color */
+
+.hlbc 			{ background: yellow } /* (Search) HighLite Background Color */
+
+.smt			{  } /* span Message Text  */
+
+/* Default Settings - Do Not Edit The Lines Below */
+input.radio { color: black }
+form		{ margin: 0; border: 0 }
+.tc			{ margin-left: auto; margin-right: auto } /* Table Center */
+.l			{ text-align: left } /* Left Align */
+.c			{ text-align: center } /* Center Align */
+.r			{ text-align: right } /* Right Align */
+.fr         { float: right } /* Float Right */
+.fw			{ width: 100% } /* Full Width */
+.w95		{ width: 95% }
+.w50		{ width: 50% }
+.w33		{ width: 33% }
+.nw			{ white-space: nowrap } /* No Wrap */
+.nb,
+ .tnb td	{ border: none !important } /* No Border */
+.vat		{ vertical-align: top } /* Vertical Align Top */
+.vam		{ vertical-align: middle } /* Vertical Align Middle */
+.vab		{ vertical-align: bottom } /* Vertical Align Bottom */
+/* Default Settings - Do Not Edit The Lines Above */
